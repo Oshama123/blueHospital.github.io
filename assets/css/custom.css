@@ -1,0 +1,29 @@
+@import url('main.css');
+
+/* --background-color: #ffffff; 
+--default-color: #3d4348; 
+--heading-color: #3e5055; 
+--accent-color: #388da8; 
+--surface-color: #ffffff;
+--contrast-color: #ffffff;  */
+
+.visi{
+    color: var(--accent-color);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn-call-us{
+    background: var(--accent-color);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    color: var(--contrast-color);
+}
+.btn-call-us:hover{
+    background: var(--contrast-color);
+    border: 1px solid var(--accent-color);
+}
